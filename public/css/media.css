@@ -1,0 +1,180 @@
+/*---------------------------------------------------------------- 
+MAX-WIDTH: 1440px ////////////////////////////////////////////////
+-----------------------------------------------------------------*/
+@media only screen and (max-width: 1440px)
+{
+	.wrapper{width: 98%;}
+	.contactLittlePiece{margin-left: 150px;}
+}
+
+
+/*---------------------------------------------------------------- 
+MAX-WIDTH: 1200px ////////////////////////////////////////////////
+-----------------------------------------------------------------*/
+@media only screen and (max-width: 1200px)
+{
+	#mainScreen
+	{
+		height: inherit;
+		padding-bottom: 150px;
+	}
+	.h1
+	{
+		font-size: 64px;
+		padding-top: 30vh;
+	}
+	.work-bottomMargin{width: 100%;}
+	.contactLittlePiece{margin-left: 100px;}
+	.contactPiece
+	{
+		width: 44%;
+		margin: 0 2.4%;
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+/*---------------------------------------------------------------- 
+MAX-WIDTH: 992px ////////////////////////////////////////////////
+-----------------------------------------------------------------*/
+@media only screen and (max-width: 992px)
+{
+	.h2{font-size: 28px;}
+	.little-button{margin: inherit;}
+	.info-button{left: 0;}
+
+	#header ul
+	{
+		width: 103.5%;
+		right: -10px;
+		margin-top: 45px;
+	}
+	#header ul li
+	{
+		display: none;
+		text-align: center;
+		padding: 20px 0;
+		background-color: rgba(255,255,255,0.9);
+	}
+	#menu-trigger
+	{
+		background-color: transparent;
+		border: transparent;
+		outline: none;
+		cursor: pointer;
+		display: block;
+		float: right;
+		position: relative;
+		top: -50px;
+	}
+	#menu-trigger:hover{opacity: 0.8;}
+	#menu-trigger:active{opacity: 0.5;}
+	.navlink
+	{
+		font-size: 21px;
+		font-weight: bold;
+		margin-left: 0;
+		padding-top: 0;
+	}
+	.navlink:hover{border: inherit;}
+	.headerContacts--p
+	{
+		font-size: 13px;
+		margin: 3px;
+	}
+	.h1{font-size: 46px;}
+	.mainScreen--p{font-size: 21px;}
+	#about p{width: 98%;}
+	.auto__table{width: 100%;}
+	.auto__table td 
+	{
+		padding: 10px 16px;
+		font-size: 16px;
+	}
+	.work-piece{width: 49%;}
+	.work-piece-name{font-size: 24px;}
+	.contactLittlePiece{margin-left: 0px;}
+	#contact input[type = "text"], #contact textarea{width: 330px;}
+	#footer{padding: 40px 0 20px 0;}
+	.footer-piece
+	{
+		width: 42%;
+		margin: 0 3%;
+	}
+}
+
+/*---------------------------------------------------------------- 
+MAX-WIDTH: 768px ////////////////////////////////////////////////
+-----------------------------------------------------------------*/
+@media only screen and (max-width: 768px)
+{
+	.underHeaderText
+	{
+		width: 90%;
+		margin-bottom: 25px;
+	}
+	.section{padding: 40px 0;}
+	#mainScreen{text-align: center;}
+	.info__piece{width: 49%;}
+	.auto__table td:first-child {font-size: 14px;}
+	.info2-piece{width: 49%;}
+	.offer-wrapper{width: 100%;}
+	#contact input[type = "text"], #contact textarea{width: 90%;}
+	.overlayText
+	{
+		font-size: 24px;
+		width: 80%;
+	}
+	#footer{padding: 40px 0 0 0;}
+	.footer-piece
+	{
+		width: 100%;
+		margin: 0 0 30px 0;
+		text-align: center;
+	}
+}
+
+/*---------------------------------------------------------------- 
+MAX-WIDTH: 480px ////////////////////////////////////////////////
+-----------------------------------------------------------------*/
+@media only screen and (max-width: 480px)
+{
+	.h2{font-size: 24px;}
+	.button
+	{
+		font-size: 18px;
+		padding: 10px 20px;
+	}
+	.little-button{font-size: 14px;}
+	.popup, .popup2, .popup3 {width: 95%;}
+
+	#header ul
+	{
+		width: 105%;
+		right: -10px;
+		margin-top: 45px;
+	}
+	.headerContacts--p{margin: 1px;}
+	.headerName{font-size: 25px;}
+	.h1{font-size: 36px;}
+	.mainScreen--p{font-size: 18px;}
+	.info__piece{width: 100%;}
+	.auto__table td 
+		{
+		    padding: 1px 2px;
+		    font-size: 14px;
+		}
+	.auto__table img {width: 100%;}
+	.info2-piece
+		{
+			width: 100%;
+			margin-bottom: 30px;
+		}
+	.work-piece{width: 100%;}
+	.contactPiece{width: 100%;}
+	#contact input[type = "text"], #contact textarea{width: 85%;}
+}
+/* -------------------------------OVER---------------------------------------------- */
+
+
+
+
